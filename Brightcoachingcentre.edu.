@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bright Coaching Centre</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f6ff;
+            color: #17345c;
+        }
+
+        header {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        nav {
+            background: #ffcc00;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 15px;
+            background: #dceeff;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            color: #004aad;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 22px;
+            margin: 18px 0;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #ccd5e0;
+        }
+
+        h2 {
+            color: #004aad;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #b8cbe0;
+            padding: 12px 5px;
+            text-align: center;
+        }
+
+        th {
+            background: #003366;
+            color: white;
+        }
+
+        .whatsapp {
+            display: inline-block;
+            background: #128c45;
+            color: white;
+            padding: 14px 22px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .call {
+            display: inline-block;
+            background: #004aad;
+            color: white;
+            padding: 14px 22px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 8px;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            .hero h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bright Coaching Centre</h1>
+        <p>Education Is The Key To Success</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#classes">Classes</a>
+        <a href="#fees">Fees</a>
+        <a href="#timetable">Time Table</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome To Bright Coaching Centre</h2>
+
+        <p>Learn Today, Lead Tomorrow!</p>
+
+        <p>We Help Students Build A Bright Future.</p>
+
+        <a class="call" href="#contact">Contact Us</a>
+    </section>
+
+    <div class="container">
+
+        <section class="card" id="classes">
+            <h2>Our Classes</h2>
+
+            <h3>Class 1 To Class 5</h3>
+            <p>All Subjects</p>
+
+            <h3>Class 6 To Class 8</h3>
+            <p>All Subjects</p>
+        </section>
+
+        <section class="card" id="fees">
+            <h2>Monthly Fees</h2>
+
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Monthly Fees</th>
+                </tr>
+
+                <tr>
+                    <td>Class 1 To 5</td>
+                    <td>Rs. 300</td>
+                </tr>
+
+                <tr>
+                    <td>Class 6 To 8</td>
+                    <td>Rs. 350</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="card" id="timetable">
+            <h2>Coaching Time Table</h2>
+
+            <table>
+                <tr>
+                    <th>Details</th>
+                    <th>Time</th>
+                </tr>
+
+                <tr>
+                    <td>Opening Time</td>
+                    <td>3:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Closing Time</td>
+                    <td>7:00 PM</td>
+                </tr>
+            </table>
+
+            <p>Monday To Saturday</p>
+        </section>
+
+        <section class="card" id="contact">
+            <h2>Contact Us</h2>
+
+            <p>For Admission And More Information</p>
+
+            <p>Mobile: 9369223500</p>
+
+            <a class="call"
+               href="tel:9369223500">
+               Call Now
+            </a>
+
+            <a class="whatsapp"
+               href="https://wa.me/919369223500"
+               target="_blank">
+               WhatsApp Us
+            </a>
+        </section>
+
+    </div>
+
+    <footer>
+        <h3>Bright Coaching Centre</h3>
+
+        <p>Education For A Better Future</p>
+
+        <p>© 2026 Bright Coaching Centre</p>
+    </footer>
+
+</body>
+</html>
